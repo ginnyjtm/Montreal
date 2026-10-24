@@ -1,0 +1,14 @@
+### DotnetCore ###
+# .NET Core build folders
+bin/
+obj/
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+.DS_Store

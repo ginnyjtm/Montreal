@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Montreal.Application/Montreal.Application.csproj" />
+  <Project Path="Montreal.Domain/Montreal.Domain.csproj" />
+</Solution>
