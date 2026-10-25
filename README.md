@@ -53,7 +53,7 @@ Dependencies always point inward. An inner layer never knows about an outer one.
 `Montreal.Presentation` Application only
 
 
-`Montreal.Api`   Application, Infrastruction, Presentation
+`Montreal.Api`   Application, Infrastructure, Presentation
 
 **Key points**
  
