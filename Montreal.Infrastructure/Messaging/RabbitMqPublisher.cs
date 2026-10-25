@@ -1,9 +1,9 @@
 using Montreal.Application.Common;
 using RabbitMQ.Client;
 
-namespace Montreal.Infrastructure.Massaging;
+namespace Montreal.Infrastructure.Messaging;
 
-public class RabbitMqPuclisher: IMessagePublisher
+public class RabbitMqPublisher : IMessagePublisher
 {
     public async Task PublishAsync<T>(string queue, T message, CancellationToken ct = default)
     {

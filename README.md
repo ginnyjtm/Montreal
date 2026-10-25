@@ -1,8 +1,10 @@
 ### MONTREAL
 
-## Montreal is also a living reference implementation. As I adopt new technologies (message queues, external integrations, and more), I integrate them here following the same architectural standards I use in production work, with documentation on the design decisions behind each one.
+ **Montreal** is also a living reference implementation. As I adopt new technologies (message queues, external integrations, and more), I integrate them here following the same architectural standards I use in production work, with documentation on the design decisions behind each one.
  
 ## Table of Contents
+- Why This Project Exists
+- Goals
 - Architecture
 - Solution Structure
 - Dependency Rules
@@ -43,15 +45,11 @@ Dependencies always point inward. An inner layer never knows about an outer one.
 
 `Montreal.Domain`   Nothing
 
-
 `Montreal.Application`   Domain  
-
 
 `Montreal.Infrastructure`   Domain, Application
 
-
 `Montreal.Presentation` Application only
-
 
 `Montreal.Api`   Application, Infrastructure, Presentation
 
