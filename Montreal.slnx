@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="Montreal.Api/Montreal.Api.csproj" />
   <Project Path="Montreal.Application/Montreal.Application.csproj" />
   <Project Path="Montreal.Domain/Montreal.Domain.csproj" />
+  <Project Path="Montreal.Infrastructure/Montreal.Infrastructure.csproj" />
+  <Project Path="Montreal.Presentation/Montreal.Presentation.csproj" />
 </Solution>
