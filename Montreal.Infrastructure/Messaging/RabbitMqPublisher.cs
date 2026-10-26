@@ -7,6 +7,6 @@ public class RabbitMqPublisher : IMessagePublisher
 {
     public async Task PublishAsync<T>(string queue, T message, CancellationToken ct = default)
     {
-        
+        Console.WriteLine("Log:" + queue + " - " + message);
     }
 }
